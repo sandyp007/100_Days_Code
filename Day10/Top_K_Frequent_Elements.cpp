@@ -5,7 +5,7 @@ public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
     unordered_map<int,int>m;
         for(int i=0;i<nums.size();i++){
-            m[nums[i]]++;   //calculating frequency
+            m[nums[i]]++;    //calculating frequency
         }
     unordered_map<int,int>::iterator it=m.begin();
     priority_queue<pair<int,int>>pq;

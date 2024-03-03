@@ -9,6 +9,6 @@ public:
            if(hours[i]>=target)
            c++;
        } 
-       return c;
+      return c;
     }
 };
